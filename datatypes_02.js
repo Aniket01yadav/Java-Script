@@ -6,20 +6,18 @@
 
 
 
-                       /* Types of data types -->
-
-                        number --> 2 to power 53
-                        bigint
-                        string --> ""
-                        boolean --> ture/false
-                        null --> standalone value
-                        undefined 
-                        symbol --> uniqness
+//                             Types of data types -->
 
 
-                        # object
+//          number --> 2 to power 53                    
+//          bigint                   
+//          string --> ""
+//          boolean --> ture/false                   
+//          null --> standalone value                    
+//          undefined                     
+//          symbol --> uniqness                                         
 
-                        */
+//          # object                    
 
 let age = 25;
 let state;
@@ -28,6 +26,5 @@ console.log(typeof undefined)
 console.log(typeof null)
 console.log(typeof age)
 console.log(typeof state)
-
 
 
