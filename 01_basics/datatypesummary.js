@@ -71,9 +71,8 @@ let usertwo = userone
 usertwo.email = "aniket@gmail.com" 
 
  console.log(userone.email);
- console.log(usertwo.email);
+ console.log(usertwo.email);   
  
-
 
 
 
