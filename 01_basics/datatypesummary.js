@@ -38,8 +38,44 @@ const myFunction = function(){
  
 let arr = [1,2,3,4,6,7,8,9]
 
-console.log(typeof myObj)
-console.log(typeof arr);
-console.log(typeof myFunction);
+// console.log(typeof myObj)
+// console.log(typeof arr);
+// console.log(typeof myFunction);
+
+
+// stack(primitive), Heap(Non-primitive)
+
+
+//                          Stack(primitive)
+
+let myrealname = "Aniket"
+
+let anothername = myrealname
+anothername = "Hello"
+
+console.log(anothername);
+console.log(myrealname);
+
+
+//                              Heap(Non-primitive)
+
+//             It is also called refrence type memory allocation
+
+let userone = {
+    email : "ayush@gmail.com",
+    upi : "user@ybl" 
+}
+
+let usertwo = userone
+
+usertwo.email = "aniket@gmail.com" 
+
+ console.log(userone.email);
+ console.log(usertwo.email);
+ 
+
+
+
+
 
 
