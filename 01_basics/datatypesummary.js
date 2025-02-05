@@ -42,4 +42,4 @@ console.log(typeof myObj)
 console.log(typeof arr);
 console.log(typeof myFunction);
 
-console.log(typeof heros);
+
