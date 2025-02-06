@@ -1,42 +1,38 @@
-const name = "hitesh"
-const repoCount = 50
+const name = "Aniket"
+const repocount = 79
 
-// console.log(name + repoCount + " Value");
+console.log(name + repocount + " value");
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+console.log(`Hello my name is ${name} and my repocount is ${repocount}`);
 
-const gameName = new String('hitesh-hc-com')
+const gamename = new String('the-aniket-yadav')
 
-// console.log(gameName[0]);
-// console.log(gameName.__proto__);
+console.log(gamename[7]);
+console.log(gamename.__proto__);
+
+console.log(gamename.length);
+console.log(gamename.toUpperCase());
+ 
+console.log(gamename.charAt(5));
+console.log(gamename.indexOf('i'));
 
 
-// console.log(gameName.length);
-// console.log(gameName.toUpperCase());
-console.log(gameName.charAt(2));
-console.log(gameName.indexOf('t'));
+const newstring = gamename.substring(0,7)
+console.log(newstring);
 
-const newString = gameName.substring(0, 4)
-console.log(newString);
 
-const anotherString = gameName.slice(-8, 4)
-console.log(anotherString);
+const anotherstring = gamename.slice(-7,0)
+console.log(anotherstring);
 
-const newStringOne = "   hitesh    "
+
+const newStringOne = "   Aniket    "
 console.log(newStringOne);
 console.log(newStringOne.trim());
 
-const url = "https://hitesh.com/hitesh%20choudhary"
 
-console.log(url.replace('%20', '-'))
+const url = "https://aniket.com/aniket%20yadav"
 
-console.log(url.includes('sundar'))
-
-console.log(gameName.split('-'));
-
-
-
-
-
-
+console.log(url.replace('%20', '-'));
+console.log(url.includes('Hello'));
+console.log(gamename.split('-'));
 
