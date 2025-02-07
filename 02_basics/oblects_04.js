@@ -46,13 +46,13 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+console.log(instaUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+console.log(Object.keys(instaUser));
+console.log(Object.values(instaUser));
+console.log(Object.entries(instaUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log(instaUser.hasOwnProperty('isLoggedIn'));
 
 
 const course = {
@@ -65,7 +65,7 @@ course.courseInstructor
 
 const {courseInstructor: instructor} = course
 
-console.log(courseInstructor);
+// console.log(courseInstructor);
 console.log(instructor);
 
 // {
@@ -74,10 +74,10 @@ console.log(instructor);
 //     "price": "free"
 // }
 
-[
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {}
+// ]
 
 
