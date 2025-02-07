@@ -9,6 +9,7 @@ const dc_heros = ["superman", "flash", "batman"]
 // const allHeros = marvel_heros.concat(dc_heros)
 // console.log(allHeros);
 
+// merging array using sprade(This means, fist we devide into single object and merge in to single array.) 
 const all_new_heros = [...marvel_heros, ...dc_heros]
 
 // console.log(all_new_heros);
