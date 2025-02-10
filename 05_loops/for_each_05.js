@@ -21,11 +21,11 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 let empinfo = [
     {
         name : "Aniket",
-        salary : 52000
+        salary : 55000
     },
     {
         name : "Ayush",
-        salary : 55000
+        salary : 52000
     },
     {
         name : "nikhil",
