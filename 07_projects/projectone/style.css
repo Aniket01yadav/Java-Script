@@ -1,0 +1,44 @@
+body{
+  background-color: #212121;
+}
+
+  .button {
+      width: 100px;
+      height: 100px;
+      /* display: inline-block; */
+      border-radius: 10px;
+      color: #000000;
+      display: flex;
+      font-weight: 600;
+      font-size: 25px;
+      flex-direction: column;
+      cursor: pointer;
+      justify-content: center;
+      margin: 0rem .3rem;
+      border: 2px solid black;
+  }
+  
+    .canvas {
+      text-align: center;
+      color: white;
+      margin-top: 30vh;
+      
+    }
+    .canvas div{
+      display: flex;
+      justify-content: center;
+    }
+    
+  #red {
+    background: red;
+  }
+  
+  #white {
+    background: white;
+  }
+  #orange {
+    background: orange;
+  }
+  #yellow {
+    background: yellow;
+  }
