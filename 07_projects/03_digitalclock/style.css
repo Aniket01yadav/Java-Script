@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(20, 20, 23);
+    color: antiquewhite;
+}
+
+#container{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 40px;
+}
+
+#clock{
+        font-size: 40px;
+        background-color: #ffa500;
+        padding:  30px 80px;
+        margin-top: 20px;
+        border-radius: 10px;
+        color: black;
+        font-weight: 900; 
+}
