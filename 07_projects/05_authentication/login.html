@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <style>
+        #registerParent{
+            margin-top: 30vh;
+        }
+        #register{
+            
+            border:2px solid black;
+            justify-content: center;
+            width: 300px;
+            padding: 10px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 5px;
+        }
+        #register button{
+            margin-top: 10px;
+        }
+        body{
+            background-color: #7fffd4;
+            color: white;
+        }
+        button{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="registerParent">
+
+        <div id="register" >
+            <label for="username">Username</label>
+            <input type="text" id="username">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <button id="btn">Login</button>
+            <!-- <a href="/register.html">Register</a> -->
+        </div>
+    </div>
+   
+   <script src="loginScript.js"></script>
+</body>
+</html>
