@@ -33,9 +33,145 @@ form{
 }
 #subt{
     cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #490340;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+#subt:hover {
+    background-color: #760567;
+}
+
+
 
 input{
     font-size: 25px;
     border-radius: 8px;
 }
+
+.prvgs{
+    font-size: 30px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gr{
+    font-size: 30px;
+    margin-top: -10px;
+    text-align: left;
+    /* margin-left: 150px; */
+
+}
+.prvs{
+    width: 600px;
+    text-align: left;
+    /* margin-left: 20px; */
+}
+
+.guesses{
+    margin-left: 20px;
+    padding-left: 5px;
+    width: 1200px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#newGame {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #490340;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+#newGame:hover {
+    background-color: #760567;
+}
+  
+
+
+@media (max-width: 768px) {
+    #wrapper{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    ul{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+    }
+    
+    
+    h1{
+        font-size: 30px;
+    }
+    
+    
+    form{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;   
+    }
+    
+    input{
+        font-size: 15px;
+        border-radius: 8px;
+    }
+
+    #subt{
+        font-size: 8px;
+    }
+    
+    .prvgs{
+        font-size: 15px;
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gr{
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: left;
+        margin-left: 270px;
+        margin-bottom: -20px;
+    
+    }
+    .prvs{
+        width: 400px;
+        margin-left: 235px;
+        text-align: left;
+        margin-left: 270px;
+    }
+    
+    .guesses{
+        margin-left: -40px;
+        padding-left: 5px;
+        width: 800px;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 12px ;
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+    #newGame{
+        margin-top: 15px;
+        font-size: 8px;
+    }
+  }  

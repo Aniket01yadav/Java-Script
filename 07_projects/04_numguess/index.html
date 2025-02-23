@@ -30,15 +30,19 @@
             <br>
             <input type="text" id="guessField" class="guessField">
             <br>
+            <br>
+            <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
+            <p id="font"></p>
         </form>
 
         <div class="resultParas">
-            <p >Previous Guesses: <span class="guesses"></span></p>
-            <p >Guesses Remaining: <span class="lastResult">10</span></p>
+            <div class="prvgs">
+                <p class="prvs">Previous Guesses&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</p>
+                <span class="guesses"></span>
+            </div>
+            <p class="gr">Guesses Remaining&nbsp;: <span class="lastResult">10</span></p>
             <p class="lowOrHi"></p>
         </div>
-        <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
-        <p id="font"></p>
     </div>
     <script src="script.js"></script>
 </body>
