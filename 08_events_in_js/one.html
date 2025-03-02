@@ -20,16 +20,21 @@
 </body>
 <script>
     document.getElementById('owl').onclick = function(){
-        alert("owl clicked")
+       alert("owl clicked")
     }
 
-    attachEvent()
-    jQuery - on
+    // attachEvent()
+    // jQuery - on
 
     // type, timestamp, defaultPrevented
     // target, toElement, srcElement, currentTarget,
-    //clientX, clientY, screenX, screenY
+    // clientX, clientY, screenX, screenY
     // altkey, ctrlkey, shiftkey, keyCode
+
+
+    // There are two types of propegation ---->
+    //        1. Bubbling
+    //        2. Capturing
 
     document.getElementById('images').addEventListener('click', function(e){
     console.log("clicked inside the ul");
@@ -40,14 +45,14 @@
     e.stopPropagation()
     }, false)
     
-    document.getElementById('google').addEventListener('click',function(e){
+    /* document.getElementById('google').addEventListener('click',function(e){
     e.preventDefault();
-    e.stopPropagation()
+    e.stopPropagation();
     console.log("google clicked");
-    }, false)
+    }, false) */
    
     
-    document.querySelector('#images').addEventListener('click', function(e){
+    /* document.querySelector('#images').addEventListener('click', function(e){
         console.log(e.target.tagName);
         if (e.target.tagName === 'IMG') {
             console.log(e.target.id);
@@ -56,7 +61,7 @@
         }
     
         
-    })
+    }) */
     
     //removeIt.parentNode.removeChild(removeIt)
 </script>
